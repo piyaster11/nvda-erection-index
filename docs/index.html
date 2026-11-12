@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>NVIDIA Erection Index</title>
+  <meta name="description" content="A joke Fear &amp; Greed-style sentiment gauge for NVIDIA (NVDA) stock, computed from real daily prices. For fun, not financial advice.">
+  <meta name="theme-color" content="#070807">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://piyaster11.github.io/nvda-erection-index/">
+  <meta property="og:title" content="NVIDIA Erection Index">
+  <meta property="og:description" content="A Fear &amp; Greed gauge for NVDA, with worse branding. For fun, not financial advice.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://piyaster11.github.io/nvda-erection-index/">
+  <meta name="twitter:card" content="summary">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@400;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="bg-glow" aria-hidden="true"></div>
+  <div class="wrap" id="app">
+    <header>
+      <p class="eyebrow">NVDA market sentiment</p>
+      <h1>NVIDIA <span>Erection</span> Index</h1>
+      <p class="tagline">A Fear &amp; Greed gauge for NVIDIA stock.</p>
+      <p class="price-line" id="price-line"></p>
+    </header>
+
+    <section class="gauge-section" aria-live="polite">
+      <div id="gauge"></div>
+      <div class="score-block">
+        <div id="score-value">—</div>
+        <div id="score-label">Loading…</div>
+        <p class="as-of" id="as-of"></p>
+      </div>
+    </section>
+
+    <section class="history" id="history" aria-label="Recent readings"></section>
+
+    <section class="spark-card">
+      <div class="spark-head">
+        <h2>Index history</h2>
+        <div id="spark-readout"></div>
+      </div>
+      <svg id="spark" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Erection index over the past year"></svg>
+    </section>
+
+    <section class="components" id="components"></section>
+
+    <details class="method">
+      <summary>How it’s calculated</summary>
+      <div class="body">
+        <p>The score is the equal-weight average of five indicators, each scaled to 0–100, using NVIDIA’s daily prices. Nothing is invented, and no options, news, or social-media data go into it.</p>
+        <ul>
+          <li><strong>Price vs 125-day moving average</strong> — percent distance from the 125-session average, mapped with a smooth (tanh) scale where a 20% gap is a strong reading.</li>
+          <li><strong>14-day RSI</strong> — Wilder’s relative strength index, used directly as a 0–100 sub-score.</li>
+          <li><strong>52-week high / low</strong> — where the close sits between the 52-week high and low (252 sessions of daily highs and lows).</li>
+          <li><strong>20-day vs 1-year volatility</strong> — inverted: short-term volatility above its one-year average scores lower (fear); a calmer tape scores higher.</li>
+          <li><strong>5 / 20-day return</strong> — the average of five-session and twenty-session price changes, each tanh-mapped.</li>
+        </ul>
+        <p>Zones follow the usual Fear &amp; Greed bins: 0–24 Limp / Extreme Fear, 25–44 Half-mast / Fear, 45–55 Neutral, 56–75 Rising / Greed, 76–100 Rock Hard / Extreme Greed.</p>
+        <p id="source-line"></p>
+        <p>A GitHub Action recomputes <code>docs/data/index.json</code> on weekdays after the U.S. close, and the page loads that file so it works without a Yahoo request in the browser (those are usually blocked by CORS). Add <code>?live=1</code> to try a live recompute with the same formulas.</p>
+      </div>
+    </details>
+
+    <footer>
+      <p class="disclaimer"><strong>For fun, not financial advice.</strong> This is a joke gauge built from public NVDA prices. It is not an investment recommendation, a forecast, or a measure of anything anatomical. Past prints do not predict the next one. Do your own research, or don’t — just don’t treat this as research.</p>
+      <p>Not affiliated with, endorsed by, or associated with NVIDIA Corporation or CNN. NVIDIA is a trademark of NVIDIA Corporation. Layout inspired by CNN’s Fear &amp; Greed Index.</p>
+      <p><a href="https://github.com/piyaster11/nvda-erection-index">Source on GitHub</a></p>
+    </footer>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>

@@ -1,0 +1,2134 @@
+{
+  "symbol": "NVDA",
+  "name": "NVIDIA Erection Index",
+  "source": "Yahoo Finance",
+  "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d&events=history",
+  "as_of": "2026-11-11",
+  "as_of_label": "November 11, 2026",
+  "timezone": "America/New_York",
+  "generated_at": "2026-11-12T02:54:48Z",
+  "price": 173.73,
+  "prev_close_price": 168.89,
+  "change": 4.84,
+  "change_pct": 2.87,
+  "score": 15,
+  "score_raw": 15.36,
+  "label": "Limp / Extreme Fear",
+  "label_short": "Limp",
+  "zone": "limp",
+  "components": [
+    {
+      "id": "momentum",
+      "name": "Price vs 125-day MA",
+      "description": "How far the adjusted close sits above or below its 125-session moving average.",
+      "value_label": "-18.4% vs 125-day MA",
+      "score": 13.7,
+      "ma125": 212.8809,
+      "pct_vs_ma": -18.39
+    },
+    {
+      "id": "rsi",
+      "name": "14-day RSI",
+      "description": "Wilder relative strength index. High RSI leans greedy; low RSI leans fearful.",
+      "value_label": "28.7",
+      "score": 28.7,
+      "rsi": 28.74
+    },
+    {
+      "id": "range",
+      "name": "52-week high / low",
+      "description": "Where the latest close sits between the 52-week high and low (using daily highs and lows).",
+      "value_label": "12.0% of 52-week range",
+      "score": 12.0,
+      "high52": 243.37,
+      "low52": 164.27,
+      "range_pct": 11.96
+    },
+    {
+      "id": "volatility",
+      "name": "20-day vs 1-year volatility",
+      "description": "Inverse reading: short-term volatility above its 1-year average scores lower (fear); calmer tape scores higher.",
+      "value_label": "1.30\u00d7 the 1-year average",
+      "score": 17.9,
+      "ratio": 1.305,
+      "vol20": 3.163,
+      "vol1y": 2.425
+    },
+    {
+      "id": "returns",
+      "name": "5 / 20-day return",
+      "description": "Average of short-term (5-session) and medium-term (20-session) price returns.",
+      "value_label": "-13.2% (5d) \u00b7 -21.5% (20d)",
+      "score": 4.5,
+      "ret5_pct": -13.19,
+      "ret20_pct": -21.5
+    }
+  ],
+  "history": {
+    "previous_close": {
+      "date": "2026-11-10",
+      "score": 13,
+      "score_raw": 13.07,
+      "label": "Limp / Extreme Fear",
+      "label_short": "Limp",
+      "zone": "limp",
+      "price": 168.89,
+      "close": 168.89
+    },
+    "week_ago": {
+      "date": "2026-11-04",
+      "score": 38,
+      "score_raw": 38.33,
+      "label": "Half-mast / Fear",
+      "label_short": "Half-mast",
+      "zone": "fear",
+      "price": 200.13,
+      "close": 200.13
+    },
+    "month_ago": {
+      "date": "2026-10-13",
+      "score": 68,
+      "score_raw": 67.68,
+      "label": "Rising / Greed",
+      "label_short": "Rising",
+      "zone": "greed",
+      "price": 228.52,
+      "close": 228.52
+    }
+  },
+  "series": [
+    {
+      "date": "2025-11-14",
+      "score": 66,
+      "score_raw": 66.47,
+      "price": 190.17,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-11-17",
+      "score": 60,
+      "score_raw": 59.65,
+      "price": 186.6,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-11-18",
+      "score": 55,
+      "score_raw": 55.45,
+      "price": 181.36,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-11-19",
+      "score": 60,
+      "score_raw": 60.12,
+      "price": 186.52,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-11-20",
+      "score": 55,
+      "score_raw": 54.84,
+      "price": 180.64,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-11-21",
+      "score": 52,
+      "score_raw": 51.72,
+      "price": 178.88,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-11-24",
+      "score": 56,
+      "score_raw": 55.83,
+      "price": 182.55,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-11-25",
+      "score": 53,
+      "score_raw": 52.97,
+      "price": 177.82,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-11-26",
+      "score": 54,
+      "score_raw": 53.95,
+      "price": 180.26,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-11-28",
+      "score": 53,
+      "score_raw": 52.67,
+      "price": 177.0,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-12-01",
+      "score": 56,
+      "score_raw": 56.07,
+      "price": 179.92,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-02",
+      "score": 56,
+      "score_raw": 56.38,
+      "price": 181.46,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-03",
+      "score": 57,
+      "score_raw": 57.38,
+      "price": 179.59,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-04",
+      "score": 61,
+      "score_raw": 60.87,
+      "price": 183.38,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-05",
+      "score": 63,
+      "score_raw": 62.58,
+      "price": 182.41,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-08",
+      "score": 65,
+      "score_raw": 64.86,
+      "price": 185.55,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-09",
+      "score": 64,
+      "score_raw": 63.98,
+      "price": 184.97,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-10",
+      "score": 64,
+      "score_raw": 64.31,
+      "price": 183.78,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-11",
+      "score": 59,
+      "score_raw": 59.5,
+      "price": 180.93,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-12",
+      "score": 54,
+      "score_raw": 54.33,
+      "price": 175.02,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-12-15",
+      "score": 55,
+      "score_raw": 54.61,
+      "price": 176.29,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-12-16",
+      "score": 57,
+      "score_raw": 56.84,
+      "price": 177.72,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-17",
+      "score": 51,
+      "score_raw": 50.74,
+      "price": 170.94,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-12-18",
+      "score": 54,
+      "score_raw": 54.24,
+      "price": 174.14,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2025-12-19",
+      "score": 65,
+      "score_raw": 64.79,
+      "price": 180.99,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-22",
+      "score": 68,
+      "score_raw": 67.64,
+      "price": 183.69,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-23",
+      "score": 72,
+      "score_raw": 71.99,
+      "price": 189.21,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-24",
+      "score": 74,
+      "score_raw": 73.57,
+      "price": 188.61,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-26",
+      "score": 74,
+      "score_raw": 74.4,
+      "price": 190.53,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-29",
+      "score": 71,
+      "score_raw": 71.21,
+      "price": 188.22,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-30",
+      "score": 69,
+      "score_raw": 69.1,
+      "price": 187.54,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2025-12-31",
+      "score": 66,
+      "score_raw": 65.68,
+      "price": 186.5,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-02",
+      "score": 69,
+      "score_raw": 68.88,
+      "price": 188.85,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-05",
+      "score": 67,
+      "score_raw": 66.77,
+      "price": 188.12,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-06",
+      "score": 67,
+      "score_raw": 66.55,
+      "price": 187.24,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-07",
+      "score": 68,
+      "score_raw": 68.44,
+      "price": 189.11,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-08",
+      "score": 64,
+      "score_raw": 63.56,
+      "price": 185.04,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-09",
+      "score": 63,
+      "score_raw": 62.73,
+      "price": 184.86,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-12",
+      "score": 64,
+      "score_raw": 63.67,
+      "price": 184.94,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-13",
+      "score": 67,
+      "score_raw": 66.6,
+      "price": 185.81,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-14",
+      "score": 62,
+      "score_raw": 62.35,
+      "price": 183.14,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-15",
+      "score": 68,
+      "score_raw": 68.1,
+      "price": 187.05,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-16",
+      "score": 69,
+      "score_raw": 68.88,
+      "price": 186.23,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-20",
+      "score": 58,
+      "score_raw": 57.74,
+      "price": 178.07,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-21",
+      "score": 63,
+      "score_raw": 62.85,
+      "price": 183.32,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-22",
+      "score": 65,
+      "score_raw": 65.13,
+      "price": 184.84,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-23",
+      "score": 66,
+      "score_raw": 66.45,
+      "price": 187.67,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-26",
+      "score": 65,
+      "score_raw": 65.32,
+      "price": 186.47,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-27",
+      "score": 70,
+      "score_raw": 69.76,
+      "price": 188.52,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-28",
+      "score": 72,
+      "score_raw": 71.75,
+      "price": 191.52,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-29",
+      "score": 72,
+      "score_raw": 72.41,
+      "price": 192.51,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-01-30",
+      "score": 70,
+      "score_raw": 69.97,
+      "price": 191.13,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-02",
+      "score": 63,
+      "score_raw": 62.72,
+      "price": 185.61,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-03",
+      "score": 56,
+      "score_raw": 55.74,
+      "price": 180.34,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-04",
+      "score": 49,
+      "score_raw": 48.9,
+      "price": 174.19,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-02-05",
+      "score": 47,
+      "score_raw": 46.8,
+      "price": 171.88,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-02-06",
+      "score": 57,
+      "score_raw": 56.58,
+      "price": 185.41,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-09",
+      "score": 63,
+      "score_raw": 62.99,
+      "price": 190.04,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-10",
+      "score": 63,
+      "score_raw": 62.79,
+      "price": 188.54,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-11",
+      "score": 65,
+      "score_raw": 65.24,
+      "price": 190.05,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-12",
+      "score": 63,
+      "score_raw": 63.02,
+      "price": 186.94,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-13",
+      "score": 54,
+      "score_raw": 54.04,
+      "price": 182.81,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-02-17",
+      "score": 55,
+      "score_raw": 55.07,
+      "price": 184.97,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-02-18",
+      "score": 62,
+      "score_raw": 61.9,
+      "price": 187.98,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-19",
+      "score": 61,
+      "score_raw": 60.96,
+      "price": 187.9,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-20",
+      "score": 64,
+      "score_raw": 63.87,
+      "price": 189.82,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-23",
+      "score": 67,
+      "score_raw": 66.57,
+      "price": 191.55,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-24",
+      "score": 68,
+      "score_raw": 67.51,
+      "price": 192.85,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-25",
+      "score": 69,
+      "score_raw": 69.05,
+      "price": 195.56,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-02-26",
+      "score": 54,
+      "score_raw": 53.95,
+      "price": 184.89,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-02-27",
+      "score": 44,
+      "score_raw": 44.41,
+      "price": 177.19,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-03-02",
+      "score": 48,
+      "score_raw": 48.28,
+      "price": 182.48,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-03",
+      "score": 47,
+      "score_raw": 46.91,
+      "price": 180.05,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-04",
+      "score": 50,
+      "score_raw": 50.27,
+      "price": 183.04,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-05",
+      "score": 55,
+      "score_raw": 55.5,
+      "price": 183.34,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-06",
+      "score": 52,
+      "score_raw": 51.65,
+      "price": 177.82,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-09",
+      "score": 58,
+      "score_raw": 57.57,
+      "price": 182.65,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-03-10",
+      "score": 60,
+      "score_raw": 60.44,
+      "price": 184.77,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-03-11",
+      "score": 61,
+      "score_raw": 60.99,
+      "price": 186.03,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-03-12",
+      "score": 57,
+      "score_raw": 57.18,
+      "price": 183.14,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-03-13",
+      "score": 56,
+      "score_raw": 56.11,
+      "price": 180.25,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-03-16",
+      "score": 59,
+      "score_raw": 58.83,
+      "price": 183.22,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-03-17",
+      "score": 56,
+      "score_raw": 56.18,
+      "price": 181.93,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-03-18",
+      "score": 54,
+      "score_raw": 53.76,
+      "price": 180.4,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-19",
+      "score": 52,
+      "score_raw": 52.46,
+      "price": 178.56,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-20",
+      "score": 46,
+      "score_raw": 46.33,
+      "price": 172.7,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-23",
+      "score": 48,
+      "score_raw": 48.32,
+      "price": 175.64,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-24",
+      "score": 48,
+      "score_raw": 48.18,
+      "price": 175.2,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-25",
+      "score": 52,
+      "score_raw": 52.02,
+      "price": 178.68,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-26",
+      "score": 47,
+      "score_raw": 47.22,
+      "price": 171.24,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-27",
+      "score": 47,
+      "score_raw": 47.19,
+      "price": 167.52,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-03-30",
+      "score": 44,
+      "score_raw": 44.41,
+      "price": 165.17,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-03-31",
+      "score": 52,
+      "score_raw": 52.08,
+      "price": 174.4,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-04-01",
+      "score": 52,
+      "score_raw": 52.19,
+      "price": 175.75,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-04-02",
+      "score": 56,
+      "score_raw": 56.5,
+      "price": 177.39,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-06",
+      "score": 60,
+      "score_raw": 59.61,
+      "price": 177.64,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-07",
+      "score": 60,
+      "score_raw": 60.1,
+      "price": 178.1,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-08",
+      "score": 61,
+      "score_raw": 61.15,
+      "price": 182.08,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-09",
+      "score": 62,
+      "score_raw": 62.14,
+      "price": 183.91,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-10",
+      "score": 67,
+      "score_raw": 66.85,
+      "price": 188.63,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-13",
+      "score": 66,
+      "score_raw": 65.72,
+      "price": 189.31,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-14",
+      "score": 70,
+      "score_raw": 69.94,
+      "price": 196.51,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-15",
+      "score": 72,
+      "score_raw": 71.53,
+      "price": 198.87,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-16",
+      "score": 71,
+      "score_raw": 71.08,
+      "price": 198.35,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-17",
+      "score": 73,
+      "score_raw": 73.35,
+      "price": 201.68,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-20",
+      "score": 76,
+      "score_raw": 75.64,
+      "price": 202.06,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-04-21",
+      "score": 71,
+      "score_raw": 70.7,
+      "price": 199.88,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-22",
+      "score": 72,
+      "score_raw": 72.28,
+      "price": 202.5,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-23",
+      "score": 68,
+      "score_raw": 68.26,
+      "price": 199.64,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-04-24",
+      "score": 77,
+      "score_raw": 77.49,
+      "price": 208.27,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-04-27",
+      "score": 83,
+      "score_raw": 82.91,
+      "price": 216.61,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-04-28",
+      "score": 80,
+      "score_raw": 80.23,
+      "price": 213.17,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-04-29",
+      "score": 77,
+      "score_raw": 77.46,
+      "price": 209.25,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-04-30",
+      "score": 65,
+      "score_raw": 64.7,
+      "price": 199.57,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-01",
+      "score": 61,
+      "score_raw": 60.71,
+      "price": 198.45,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-04",
+      "score": 59,
+      "score_raw": 59.38,
+      "price": 198.48,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-05",
+      "score": 58,
+      "score_raw": 57.61,
+      "price": 196.5,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-06",
+      "score": 66,
+      "score_raw": 65.7,
+      "price": 207.83,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-07",
+      "score": 71,
+      "score_raw": 71.18,
+      "price": 211.5,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-08",
+      "score": 74,
+      "score_raw": 73.55,
+      "price": 215.2,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-11",
+      "score": 75,
+      "score_raw": 75.18,
+      "price": 219.44,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-12",
+      "score": 76,
+      "score_raw": 76.22,
+      "price": 220.78,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-05-13",
+      "score": 77,
+      "score_raw": 76.61,
+      "price": 225.83,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-05-14",
+      "score": 78,
+      "score_raw": 78.33,
+      "price": 235.74,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-05-15",
+      "score": 68,
+      "score_raw": 68.13,
+      "price": 225.32,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-18",
+      "score": 64,
+      "score_raw": 64.2,
+      "price": 222.32,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-19",
+      "score": 63,
+      "score_raw": 62.55,
+      "price": 220.61,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-20",
+      "score": 63,
+      "score_raw": 63.19,
+      "price": 223.47,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-21",
+      "score": 58,
+      "score_raw": 58.06,
+      "price": 219.51,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-22",
+      "score": 56,
+      "score_raw": 55.67,
+      "price": 215.33,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-26",
+      "score": 56,
+      "score_raw": 55.8,
+      "price": 214.86,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-27",
+      "score": 54,
+      "score_raw": 54.48,
+      "price": 212.6,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-05-28",
+      "score": 56,
+      "score_raw": 56.21,
+      "price": 214.25,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-05-29",
+      "score": 58,
+      "score_raw": 57.94,
+      "price": 211.14,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-06-01",
+      "score": 68,
+      "score_raw": 67.89,
+      "price": 224.36,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-06-02",
+      "score": 66,
+      "score_raw": 66.35,
+      "price": 222.82,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-06-03",
+      "score": 59,
+      "score_raw": 58.59,
+      "price": 214.75,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-06-04",
+      "score": 63,
+      "score_raw": 62.55,
+      "price": 218.66,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-06-05",
+      "score": 47,
+      "score_raw": 46.79,
+      "price": 205.1,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-08",
+      "score": 47,
+      "score_raw": 46.87,
+      "price": 208.64,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-09",
+      "score": 46,
+      "score_raw": 46.35,
+      "price": 208.19,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-10",
+      "score": 40,
+      "score_raw": 40.14,
+      "price": 200.42,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-06-11",
+      "score": 43,
+      "score_raw": 43.0,
+      "price": 204.87,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-06-12",
+      "score": 47,
+      "score_raw": 47.33,
+      "price": 205.19,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-15",
+      "score": 54,
+      "score_raw": 54.43,
+      "price": 212.45,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-16",
+      "score": 49,
+      "score_raw": 49.49,
+      "price": 207.41,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-17",
+      "score": 49,
+      "score_raw": 49.11,
+      "price": 204.65,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-18",
+      "score": 53,
+      "score_raw": 53.01,
+      "price": 210.69,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-22",
+      "score": 51,
+      "score_raw": 51.43,
+      "price": 208.65,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-06-23",
+      "score": 41,
+      "score_raw": 40.83,
+      "price": 200.04,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-06-24",
+      "score": 41,
+      "score_raw": 40.58,
+      "price": 199.0,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-06-25",
+      "score": 38,
+      "score_raw": 37.81,
+      "price": 195.74,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-06-26",
+      "score": 33,
+      "score_raw": 33.43,
+      "price": 192.53,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-06-29",
+      "score": 36,
+      "score_raw": 36.23,
+      "price": 194.97,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-06-30",
+      "score": 45,
+      "score_raw": 45.05,
+      "price": 200.09,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-01",
+      "score": 43,
+      "score_raw": 42.82,
+      "price": 197.58,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-07-02",
+      "score": 42,
+      "score_raw": 42.26,
+      "price": 194.83,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-07-06",
+      "score": 44,
+      "score_raw": 43.64,
+      "price": 195.55,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-07-07",
+      "score": 50,
+      "score_raw": 50.1,
+      "price": 196.93,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-08",
+      "score": 55,
+      "score_raw": 54.94,
+      "price": 204.12,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-09",
+      "score": 54,
+      "score_raw": 53.83,
+      "price": 202.78,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-10",
+      "score": 64,
+      "score_raw": 64.1,
+      "price": 210.96,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-07-13",
+      "score": 54,
+      "score_raw": 54.47,
+      "price": 203.53,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-14",
+      "score": 61,
+      "score_raw": 60.84,
+      "price": 211.8,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-07-15",
+      "score": 60,
+      "score_raw": 59.97,
+      "price": 212.5,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-07-16",
+      "score": 55,
+      "score_raw": 55.32,
+      "price": 207.4,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-17",
+      "score": 48,
+      "score_raw": 47.9,
+      "price": 202.81,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-20",
+      "score": 51,
+      "score_raw": 50.57,
+      "price": 203.28,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-21",
+      "score": 53,
+      "score_raw": 52.64,
+      "price": 207.29,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-07-22",
+      "score": 61,
+      "score_raw": 60.78,
+      "price": 212.06,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-07-23",
+      "score": 58,
+      "score_raw": 58.26,
+      "price": 208.76,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-07-24",
+      "score": 58,
+      "score_raw": 58.15,
+      "price": 206.84,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-07-27",
+      "score": 44,
+      "score_raw": 44.11,
+      "price": 196.51,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-07-28",
+      "score": 43,
+      "score_raw": 43.48,
+      "price": 197.01,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-07-29",
+      "score": 35,
+      "score_raw": 34.85,
+      "price": 190.01,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-07-30",
+      "score": 40,
+      "score_raw": 40.04,
+      "price": 195.04,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-07-31",
+      "score": 47,
+      "score_raw": 46.58,
+      "price": 200.75,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-08-03",
+      "score": 55,
+      "score_raw": 55.4,
+      "price": 206.64,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-08-04",
+      "score": 60,
+      "score_raw": 59.79,
+      "price": 211.94,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-05",
+      "score": 65,
+      "score_raw": 65.29,
+      "price": 219.22,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-06",
+      "score": 65,
+      "score_raw": 65.04,
+      "price": 218.99,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-07",
+      "score": 68,
+      "score_raw": 68.21,
+      "price": 223.96,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-10",
+      "score": 63,
+      "score_raw": 63.07,
+      "price": 217.55,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-11",
+      "score": 62,
+      "score_raw": 61.91,
+      "price": 217.5,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-12",
+      "score": 66,
+      "score_raw": 65.67,
+      "price": 224.09,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-13",
+      "score": 68,
+      "score_raw": 68.35,
+      "price": 225.3,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-14",
+      "score": 68,
+      "score_raw": 68.12,
+      "price": 225.16,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-17",
+      "score": 70,
+      "score_raw": 69.54,
+      "price": 225.01,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-18",
+      "score": 63,
+      "score_raw": 62.71,
+      "price": 219.74,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-19",
+      "score": 58,
+      "score_raw": 58.01,
+      "price": 217.56,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-20",
+      "score": 58,
+      "score_raw": 57.62,
+      "price": 216.85,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-21",
+      "score": 56,
+      "score_raw": 55.59,
+      "price": 214.72,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-24",
+      "score": 53,
+      "score_raw": 52.97,
+      "price": 208.48,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-08-25",
+      "score": 58,
+      "score_raw": 58.23,
+      "price": 213.05,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-26",
+      "score": 57,
+      "score_raw": 57.46,
+      "price": 209.66,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-27",
+      "score": 69,
+      "score_raw": 69.2,
+      "price": 227.98,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-28",
+      "score": 57,
+      "score_raw": 57.39,
+      "price": 217.55,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-08-31",
+      "score": 62,
+      "score_raw": 61.64,
+      "price": 220.78,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-01",
+      "score": 56,
+      "score_raw": 56.34,
+      "price": 217.44,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-02",
+      "score": 63,
+      "score_raw": 62.92,
+      "price": 224.41,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-03",
+      "score": 62,
+      "score_raw": 62.25,
+      "price": 228.45,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-04",
+      "score": 66,
+      "score_raw": 66.11,
+      "price": 230.36,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-08",
+      "score": 62,
+      "score_raw": 61.94,
+      "price": 225.73,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-09",
+      "score": 61,
+      "score_raw": 60.5,
+      "price": 223.67,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-10",
+      "score": 52,
+      "score_raw": 52.42,
+      "price": 218.36,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-09-11",
+      "score": 51,
+      "score_raw": 51.13,
+      "price": 218.29,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-09-14",
+      "score": 43,
+      "score_raw": 43.1,
+      "price": 210.96,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-09-15",
+      "score": 45,
+      "score_raw": 44.76,
+      "price": 212.17,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-09-16",
+      "score": 48,
+      "score_raw": 47.86,
+      "price": 213.9,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-09-17",
+      "score": 55,
+      "score_raw": 54.99,
+      "price": 219.34,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-09-18",
+      "score": 58,
+      "score_raw": 58.08,
+      "price": 222.27,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-21",
+      "score": 65,
+      "score_raw": 64.66,
+      "price": 227.38,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-22",
+      "score": 67,
+      "score_raw": 67.34,
+      "price": 228.87,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-23",
+      "score": 63,
+      "score_raw": 62.98,
+      "price": 225.51,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-24",
+      "score": 61,
+      "score_raw": 61.27,
+      "price": 224.58,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-25",
+      "score": 66,
+      "score_raw": 65.94,
+      "price": 225.07,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-28",
+      "score": 72,
+      "score_raw": 72.13,
+      "price": 228.86,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-29",
+      "score": 69,
+      "score_raw": 69.36,
+      "price": 227.21,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-09-30",
+      "score": 72,
+      "score_raw": 72.21,
+      "price": 228.38,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-01",
+      "score": 75,
+      "score_raw": 74.71,
+      "price": 230.86,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-02",
+      "score": 77,
+      "score_raw": 76.82,
+      "price": 233.95,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-10-05",
+      "score": 79,
+      "score_raw": 79.46,
+      "price": 238.9,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-10-06",
+      "score": 80,
+      "score_raw": 80.27,
+      "price": 239.24,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-10-07",
+      "score": 78,
+      "score_raw": 78.37,
+      "price": 237.47,
+      "label_short": "Rock Hard",
+      "zone": "extreme_greed"
+    },
+    {
+      "date": "2026-10-08",
+      "score": 70,
+      "score_raw": 70.35,
+      "price": 230.48,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-09",
+      "score": 68,
+      "score_raw": 68.1,
+      "price": 229.28,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-12",
+      "score": 66,
+      "score_raw": 65.8,
+      "price": 226.32,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-13",
+      "score": 68,
+      "score_raw": 67.68,
+      "price": 228.52,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-14",
+      "score": 60,
+      "score_raw": 59.52,
+      "price": 221.3,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-15",
+      "score": 56,
+      "score_raw": 55.87,
+      "price": 217.23,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-16",
+      "score": 53,
+      "score_raw": 52.66,
+      "price": 214.13,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-10-19",
+      "score": 56,
+      "score_raw": 55.95,
+      "price": 217.09,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-20",
+      "score": 55,
+      "score_raw": 54.76,
+      "price": 216.47,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-10-21",
+      "score": 63,
+      "score_raw": 62.6,
+      "price": 221.97,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-22",
+      "score": 52,
+      "score_raw": 51.6,
+      "price": 212.21,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-10-23",
+      "score": 51,
+      "score_raw": 51.1,
+      "price": 210.96,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-10-26",
+      "score": 55,
+      "score_raw": 55.21,
+      "price": 216.0,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-10-27",
+      "score": 58,
+      "score_raw": 57.63,
+      "price": 217.94,
+      "label_short": "Rising",
+      "zone": "greed"
+    },
+    {
+      "date": "2026-10-28",
+      "score": 53,
+      "score_raw": 53.13,
+      "price": 215.38,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-10-29",
+      "score": 54,
+      "score_raw": 53.72,
+      "price": 213.66,
+      "label_short": "Neutral",
+      "zone": "neutral"
+    },
+    {
+      "date": "2026-10-30",
+      "score": 43,
+      "score_raw": 43.48,
+      "price": 204.64,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-11-02",
+      "score": 41,
+      "score_raw": 40.78,
+      "price": 202.06,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-11-03",
+      "score": 44,
+      "score_raw": 43.97,
+      "price": 206.69,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-11-04",
+      "score": 38,
+      "score_raw": 38.33,
+      "price": 200.13,
+      "label_short": "Half-mast",
+      "zone": "fear"
+    },
+    {
+      "date": "2026-11-05",
+      "score": 21,
+      "score_raw": 20.63,
+      "price": 181.6,
+      "label_short": "Limp",
+      "zone": "limp"
+    },
+    {
+      "date": "2026-11-06",
+      "score": 24,
+      "score_raw": 23.63,
+      "price": 186.64,
+      "label_short": "Limp",
+      "zone": "limp"
+    },
+    {
+      "date": "2026-11-09",
+      "score": 18,
+      "score_raw": 18.49,
+      "price": 178.67,
+      "label_short": "Limp",
+      "zone": "limp"
+    },
+    {
+      "date": "2026-11-10",
+      "score": 13,
+      "score_raw": 13.07,
+      "price": 168.89,
+      "label_short": "Limp",
+      "zone": "limp"
+    },
+    {
+      "date": "2026-11-11",
+      "score": 15,
+      "score_raw": 15.36,
+      "price": 173.73,
+      "label_short": "Limp",
+      "zone": "limp"
+    }
+  ],
+  "methodology": {
+    "weights": "Equal average of five components, each scaled to 0\u2013100.",
+    "momentum": "Percent distance from the 125-day moving average, mapped with a tanh scale of 20%.",
+    "rsi": "14-day Wilder RSI used directly as the 0\u2013100 sub-score.",
+    "range": "Close position between the 52-week high and low (daily highs/lows over 252 sessions).",
+    "volatility": "Ratio of 20-day to 252-day standard deviation of daily returns, inverted (calmer = higher score) with a tanh scale of 0.40 around a ratio of 1.0.",
+    "returns": "Average of 5-session and 20-session returns, tanh-mapped with scales of 8% and 15%.",
+    "zones": [
+      {
+        "min": 0,
+        "max": 24,
+        "id": "limp",
+        "label": "Limp / Extreme Fear"
+      },
+      {
+        "min": 25,
+        "max": 44,
+        "id": "fear",
+        "label": "Half-mast / Fear"
+      },
+      {
+        "min": 45,
+        "max": 55,
+        "id": "neutral",
+        "label": "Neutral"
+      },
+      {
+        "min": 56,
+        "max": 75,
+        "id": "greed",
+        "label": "Rising / Greed"
+      },
+      {
+        "min": 76,
+        "max": 100,
+        "id": "extreme_greed",
+        "label": "Rock Hard / Extreme Greed"
+      }
+    ]
+  },
+  "disclaimer": "For fun, not financial advice."
+}
