@@ -462,6 +462,22 @@ def main() -> int:
     bars = parse_bars(payload_yahoo)
     data = build_payload(bars, url)
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
+    if OUT_PATH.exists():
+        try:
+            old = json.loads(OUT_PATH.read_text(encoding="utf-8"))
+        except json.JSONDecodeError:
+            old = None
+        if old is not None:
+            old_cmp = {k: v for k, v in old.items() if k != "generated_at"}
+            new_cmp = {k: v for k, v in data.items() if k != "generated_at"}
+            if old_cmp == new_cmp:
+                print(
+                    f"Index unchanged (as_of={data['as_of']} score={data['score']}); leaving {OUT_PATH}",
+                    file=sys.stderr,
+                )
+                for c in data["components"]:
+                    print(f"  {c['id']:12} {c['score']:6.1f}  {c['value_label']}", file=sys.stderr)
+                return 0
     tmp = OUT_PATH.with_suffix(".json.tmp")
     tmp.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     tmp.replace(OUT_PATH)
