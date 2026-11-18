@@ -3,16 +3,16 @@
   "name": "NVIDIA Erection Index",
   "source": "Yahoo Finance",
   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d&events=history",
-  "as_of": "2026-11-16",
-  "as_of_label": "November 16, 2026",
+  "as_of": "2026-11-17",
+  "as_of_label": "November 17, 2026",
   "timezone": "America/New_York",
-  "generated_at": "2026-11-17T04:13:09Z",
-  "price": 156.14,
-  "prev_close_price": 162.85,
-  "change": -6.71,
-  "change_pct": -4.12,
-  "score": 11,
-  "score_raw": 11.38,
+  "generated_at": "2026-11-18T03:10:55Z",
+  "price": 155.46,
+  "prev_close_price": 156.14,
+  "change": -0.68,
+  "change_pct": -0.44,
+  "score": 12,
+  "score_raw": 11.97,
   "label": "Limp / Extreme Fear",
   "label_short": "Limp",
   "zone": "limp",
@@ -21,28 +21,28 @@
       "id": "momentum",
       "name": "Price vs 125-day MA",
       "description": "How far the adjusted close sits above or below its 125-session moving average.",
-      "value_label": "-26.1% vs 125-day MA",
-      "score": 6.8,
-      "ma125": 211.4286,
-      "pct_vs_ma": -26.15
+      "value_label": "-26.3% vs 125-day MA",
+      "score": 6.7,
+      "ma125": 210.8886,
+      "pct_vs_ma": -26.28
     },
     {
       "id": "rsi",
       "name": "14-day RSI",
       "description": "Wilder relative strength index. High RSI leans greedy; low RSI leans fearful.",
-      "value_label": "22.7",
-      "score": 22.7,
-      "rsi": 22.72
+      "value_label": "22.5",
+      "score": 22.5,
+      "rsi": 22.5
     },
     {
       "id": "range",
       "name": "52-week high / low",
       "description": "Where the latest close sits between the 52-week high and low (using daily highs and lows).",
-      "value_label": "7.8% of 52-week range",
-      "score": 7.8,
+      "value_label": "7.0% of 52-week range",
+      "score": 7.0,
       "high52": 243.37,
       "low52": 148.8,
-      "range_pct": 7.76
+      "range_pct": 7.04
     },
     {
       "id": "volatility",
@@ -51,49 +51,49 @@
       "value_label": "1.33\u00d7 the 1-year average",
       "score": 16.4,
       "ratio": 1.326,
-      "vol20": 3.234,
-      "vol1y": 2.439
+      "vol20": 3.231,
+      "vol1y": 2.437
     },
     {
       "id": "returns",
       "name": "5 / 20-day return",
       "description": "Average of short-term (5-session) and medium-term (20-session) price returns.",
-      "value_label": "-12.6% (5d) \u00b7 -28.1% (20d)",
-      "score": 3.2,
-      "ret5_pct": -12.61,
-      "ret20_pct": -28.08
+      "value_label": "-8.0% (5d) \u00b7 -28.2% (20d)",
+      "score": 7.2,
+      "ret5_pct": -7.95,
+      "ret20_pct": -28.18
     }
   ],
   "history": {
     "previous_close": {
-      "date": "2026-11-13",
-      "score": 14,
-      "score_raw": 13.75,
+      "date": "2026-11-16",
+      "score": 11,
+      "score_raw": 11.38,
       "label": "Limp / Extreme Fear",
       "label_short": "Limp",
       "zone": "limp",
-      "price": 162.85,
-      "close": 162.85
+      "price": 156.14,
+      "close": 156.14
     },
     "week_ago": {
-      "date": "2026-11-09",
-      "score": 18,
-      "score_raw": 18.49,
+      "date": "2026-11-10",
+      "score": 13,
+      "score_raw": 13.07,
       "label": "Limp / Extreme Fear",
       "label_short": "Limp",
       "zone": "limp",
-      "price": 178.67,
-      "close": 178.67
+      "price": 168.89,
+      "close": 168.89
     },
     "month_ago": {
-      "date": "2026-10-16",
-      "score": 53,
-      "score_raw": 52.66,
-      "label": "Neutral",
-      "label_short": "Neutral",
-      "zone": "neutral",
-      "price": 214.13,
-      "close": 214.13
+      "date": "2026-10-19",
+      "score": 56,
+      "score_raw": 55.95,
+      "label": "Rising / Greed",
+      "label_short": "Rising",
+      "zone": "greed",
+      "price": 217.09,
+      "close": 217.09
     }
   },
   "series": [
@@ -2078,6 +2078,14 @@
       "score": 11,
       "score_raw": 11.38,
       "price": 156.14,
+      "label_short": "Limp",
+      "zone": "limp"
+    },
+    {
+      "date": "2026-11-17",
+      "score": 12,
+      "score_raw": 11.97,
+      "price": 155.46,
       "label_short": "Limp",
       "zone": "limp"
     }
