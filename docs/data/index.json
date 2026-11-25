@@ -3,46 +3,46 @@
   "name": "NVIDIA Erection Index",
   "source": "Yahoo Finance",
   "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=2y&interval=1d&events=history",
-  "as_of": "2026-11-23",
-  "as_of_label": "November 23, 2026",
+  "as_of": "2026-11-24",
+  "as_of_label": "November 24, 2026",
   "timezone": "America/New_York",
-  "generated_at": "2026-11-24T05:37:36Z",
-  "price": 165.05,
-  "prev_close_price": 125.53,
-  "change": 39.52,
-  "change_pct": 31.48,
-  "score": 26,
-  "score_raw": 26.08,
-  "label": "Half-mast / Fear",
-  "label_short": "Half-mast",
-  "zone": "fear",
+  "generated_at": "2026-11-25T04:38:32Z",
+  "price": 155.38,
+  "prev_close_price": 165.05,
+  "change": -9.67,
+  "change_pct": -5.86,
+  "score": 20,
+  "score_raw": 19.74,
+  "label": "Limp / Extreme Fear",
+  "label_short": "Limp",
+  "zone": "limp",
   "components": [
     {
       "id": "momentum",
       "name": "Price vs 125-day MA",
       "description": "How far the adjusted close sits above or below its 125-session moving average.",
-      "value_label": "-20.9% vs 125-day MA",
-      "score": 11.0,
-      "ma125": 208.7061,
-      "pct_vs_ma": -20.92
+      "value_label": "-25.4% vs 125-day MA",
+      "score": 7.3,
+      "ma125": 208.239,
+      "pct_vs_ma": -25.38
     },
     {
       "id": "rsi",
       "name": "14-day RSI",
       "description": "Wilder relative strength index. High RSI leans greedy; low RSI leans fearful.",
-      "value_label": "42.9",
-      "score": 42.9,
-      "rsi": 42.87
+      "value_label": "39.5",
+      "score": 39.5,
+      "rsi": 39.47
     },
     {
       "id": "range",
       "name": "52-week high / low",
       "description": "Where the latest close sits between the 52-week high and low (using daily highs and lows).",
-      "value_label": "34.1% of 52-week range",
-      "score": 34.1,
+      "value_label": "26.0% of 52-week range",
+      "score": 26.0,
       "high52": 243.37,
       "low52": 124.5,
-      "range_pct": 34.11
+      "range_pct": 25.98
     },
     {
       "id": "volatility",
@@ -51,49 +51,49 @@
       "value_label": "2.58\u00d7 the 1-year average",
       "score": 0.0,
       "ratio": 2.58,
-      "vol20": 8.406,
-      "vol1y": 3.258
+      "vol20": 8.458,
+      "vol1y": 3.278
     },
     {
       "id": "returns",
       "name": "5 / 20-day return",
       "description": "Average of short-term (5-session) and medium-term (20-session) price returns.",
-      "value_label": "+5.7% (5d) \u00b7 -23.6% (20d)",
-      "score": 42.4,
-      "ret5_pct": 5.71,
-      "ret20_pct": -23.59
+      "value_label": "-0.1% (5d) \u00b7 -28.7% (20d)",
+      "score": 25.9,
+      "ret5_pct": -0.05,
+      "ret20_pct": -28.71
     }
   ],
   "history": {
     "previous_close": {
-      "date": "2026-11-20",
-      "score": 5,
-      "score_raw": 4.77,
-      "label": "Limp / Extreme Fear",
-      "label_short": "Limp",
-      "zone": "limp",
-      "price": 125.53,
-      "close": 125.53
+      "date": "2026-11-23",
+      "score": 26,
+      "score_raw": 26.08,
+      "label": "Half-mast / Fear",
+      "label_short": "Half-mast",
+      "zone": "fear",
+      "price": 165.05,
+      "close": 165.05
     },
     "week_ago": {
-      "date": "2026-11-16",
-      "score": 11,
-      "score_raw": 11.38,
+      "date": "2026-11-17",
+      "score": 12,
+      "score_raw": 11.97,
       "label": "Limp / Extreme Fear",
       "label_short": "Limp",
       "zone": "limp",
-      "price": 156.14,
-      "close": 156.14
+      "price": 155.46,
+      "close": 155.46
     },
     "month_ago": {
-      "date": "2026-10-23",
-      "score": 51,
-      "score_raw": 51.1,
+      "date": "2026-10-26",
+      "score": 55,
+      "score_raw": 55.21,
       "label": "Neutral",
       "label_short": "Neutral",
       "zone": "neutral",
-      "price": 210.96,
-      "close": 210.96
+      "price": 216.0,
+      "close": 216.0
     }
   },
   "series": [
@@ -2080,6 +2080,14 @@
       "price": 165.05,
       "label_short": "Half-mast",
       "zone": "fear"
+    },
+    {
+      "date": "2026-11-24",
+      "score": 20,
+      "score_raw": 19.74,
+      "price": 155.38,
+      "label_short": "Limp",
+      "zone": "limp"
     }
   ],
   "methodology": {
